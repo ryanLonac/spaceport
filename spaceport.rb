@@ -57,7 +57,7 @@ end
 #create Auth Routes
   route "map.signup  '/signup', :controller => 'users', :action => 'new'"
   route "map.login  '/login',  :controller => 'session', :action => 'new'"
-  route "map.logout '/logout', :controller => 'session', :action => 'destroy"
+  route "map.logout '/logout', :controller => 'session', :action => 'destroy'"
 
 # Initialize submodules
 git :submodule => "init"
